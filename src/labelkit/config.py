@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Literal
 
-from pydantic import AliasChoices, Field, SecretStr
+from pydantic import AliasChoices, Field, SecretStr, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 Provider = Literal["ollama", "openai"]
@@ -10,7 +10,7 @@ _DEFAULTS: dict[str, dict[str, str]] = {
     "ollama": {
         "base_url": "http://localhost:11434/v1",
         "vision_model": "qwen2.5vl:3b",  # reads the photos
-        "text_model": "qwen2.5:3b",  # extraction + translation: see README "Results"
+        "text_model": "qwen2.5:3b",  # extraction + translation (beat qwen3:4b on the samples)
     },
     "openai": {
         "base_url": "https://api.openai.com/v1",
@@ -18,6 +18,18 @@ _DEFAULTS: dict[str, dict[str, str]] = {
         "text_model": "gpt-4o-mini",
     },
 }
+
+
+def check_languages(languages: list[str]) -> list[str]:
+    """Normalise and validate target language codes (see labelkit.i18n)."""
+    from labelkit.i18n import LANGUAGE_NAMES
+
+    codes = list(dict.fromkeys(code.strip().lower() for code in languages if code.strip()))
+    unknown = [code for code in codes if code not in LANGUAGE_NAMES]
+    if unknown or not codes:
+        supported = ", ".join(LANGUAGE_NAMES)
+        raise ValueError(f"Unsupported or no target language {unknown}; choose from: {supported}")
+    return codes
 
 
 class Settings(BaseSettings):
@@ -43,7 +55,13 @@ class Settings(BaseSettings):
     max_image_side: int = 1024
     timeout: float = 600.0
     cache_dir: Path | None = Path(".cache/labelkit")
+    # Target languages, first one first. Env var: LABELKIT_LANGUAGES='["pt","fr","de"]'
     languages: list[str] = ["pt", "fr"]
+
+    @field_validator("languages")
+    @classmethod
+    def _supported_languages(cls, value: list[str]) -> list[str]:
+        return check_languages(value)
 
     def resolved(self, key: str) -> str:
         value = getattr(self, key)

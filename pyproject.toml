@@ -25,7 +25,6 @@ labelkit = "labelkit.cli:app"
 
 [dependency-groups]
 dev = [
-    "playwright>=1.63.0",
     "pytest>=8",
     "ruff>=0.6",
 ]
@@ -42,7 +41,11 @@ target-version = "py311"
 select = ["E", "F", "I", "UP", "B"]
 
 [tool.ruff.lint.flake8-bugbear]
-extend-immutable-calls = ["typer.Argument", "typer.Option", "gradio.Progress"]
+extend-immutable-calls = ["typer.Argument", "typer.Option"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff.lint.per-file-ignores]
+# imports follow the sys.path fallback that lets the app run without installing the package
+"app/app.py" = ["E402"]

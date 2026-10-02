@@ -5,6 +5,7 @@ from pathlib import Path
 
 import pandas as pd
 import typer
+from pydantic import ValidationError
 
 from labelkit.config import Provider, Settings
 from labelkit.evaluate import report, summary
@@ -19,9 +20,18 @@ app = typer.Typer(help="Food-label photos -> structured, translated product data
 ProviderOpt = typer.Option(None, help="ollama (local) or openai. Default: LABELKIT_PROVIDER.")
 
 
-def _llm(provider: Provider | None) -> LLM:
-    settings = Settings(provider=provider) if provider else Settings()
-    return LLM(settings)
+def _llm(provider: Provider | None, languages: str | None = None) -> LLM:
+    overrides = {}
+    if provider:
+        overrides["provider"] = provider
+    if languages:
+        overrides["languages"] = languages.split(",")
+    try:
+        return LLM(Settings(**overrides))
+    except ValidationError as error:  # e.g. an unsupported language code
+        raise typer.BadParameter(error.errors()[0]["msg"].removeprefix("Value error, ")) from None
+    except ValueError as error:  # e.g. the OpenAI provider without an API key
+        raise typer.BadParameter(str(error)) from None
 
 
 def _product_folders(path: Path) -> list[Path]:
@@ -47,9 +57,13 @@ def run(
     output: Path = typer.Option(Path("output"), help="Where results are written."),
     provider: Provider | None = ProviderOpt,
     force: bool = typer.Option(False, help="Re-process products that already have results."),
+    languages: str | None = typer.Option(
+        None, help="Target languages, comma-separated (e.g. pt,fr,de). Default: pt,fr."
+    ),
 ):
     """Full pipeline: OCR -> extraction -> translation -> Shopify CSV."""
-    llm = _llm(provider)
+    llm = _llm(provider, languages)
+    typer.echo(f"Languages: {', '.join(llm.settings.languages)}")
     typer.echo(f"Using {llm.settings.provider}: {llm.vision_model} / {llm.text_model}")
     results = []
     folders = _product_folders(path)

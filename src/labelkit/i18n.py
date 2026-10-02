@@ -1,9 +1,17 @@
-"""Fixed per-language strings: defaults for missing fields and nutrition labels."""
+"""Fixed per-language strings: defaults for missing fields and nutrition labels.
+
+These are written by hand, not translated by the model, so the EU nutrition declaration uses
+the regulation's wording in every language. To add a target language, add it to both dicts.
+"""
 
 LANGUAGE_NAMES = {
     "pt": "Portuguese",
     "fr": "French",
     "en": "English",
+    "es": "Spanish",
+    "de": "German",
+    "it": "Italian",
+    "nl": "Dutch",
 }
 
 TEXT: dict[str, dict[str, str]] = {
@@ -57,5 +65,73 @@ TEXT: dict[str, dict[str, str]] = {
         "protein": "Protein",
         "salt": "Salt",
         "fiber": "Fibre",
+    },
+    "es": {
+        "not_specified": "No especificado",
+        "no_allergens": "No se mencionan alérgenos",
+        "default_storage": "Conservar en un lugar fresco y seco, protegido de la luz.",
+        "default_usage": "Listo para consumir",
+        "nutrition_title": "Información nutricional media",
+        "per_100g": "Por 100 g:",
+        "per_100ml": "Por 100 ml:",
+        "energy": "Valor energético",
+        "fat": "Grasas",
+        "saturated_fat": "de las cuales saturadas",
+        "carbohydrates": "Hidratos de carbono",
+        "sugars": "de los cuales azúcares",
+        "protein": "Proteínas",
+        "salt": "Sal",
+        "fiber": "Fibra alimentaria",
+    },
+    "de": {
+        "not_specified": "Nicht angegeben",
+        "no_allergens": "Keine Allergene angegeben",
+        "default_storage": "Kühl, trocken und lichtgeschützt lagern.",
+        "default_usage": "Verzehrfertig",
+        "nutrition_title": "Durchschnittliche Nährwerte",
+        "per_100g": "Pro 100 g:",
+        "per_100ml": "Pro 100 ml:",
+        "energy": "Brennwert",
+        "fat": "Fett",
+        "saturated_fat": "davon gesättigte Fettsäuren",
+        "carbohydrates": "Kohlenhydrate",
+        "sugars": "davon Zucker",
+        "protein": "Eiweiß",
+        "salt": "Salz",
+        "fiber": "Ballaststoffe",
+    },
+    "it": {
+        "not_specified": "Non specificato",
+        "no_allergens": "Nessun allergene indicato",
+        "default_storage": "Conservare in luogo fresco e asciutto, al riparo dalla luce.",
+        "default_usage": "Pronto da consumare",
+        "nutrition_title": "Valori nutrizionali medi",
+        "per_100g": "Per 100 g:",
+        "per_100ml": "Per 100 ml:",
+        "energy": "Energia",
+        "fat": "Grassi",
+        "saturated_fat": "di cui acidi grassi saturi",
+        "carbohydrates": "Carboidrati",
+        "sugars": "di cui zuccheri",
+        "protein": "Proteine",
+        "salt": "Sale",
+        "fiber": "Fibre",
+    },
+    "nl": {
+        "not_specified": "Niet gespecificeerd",
+        "no_allergens": "Geen allergenen vermeld",
+        "default_storage": "Koel, droog en donker bewaren.",
+        "default_usage": "Klaar voor consumptie",
+        "nutrition_title": "Gemiddelde voedingswaarde",
+        "per_100g": "Per 100 g:",
+        "per_100ml": "Per 100 ml:",
+        "energy": "Energie",
+        "fat": "Vetten",
+        "saturated_fat": "waarvan verzadigde vetzuren",
+        "carbohydrates": "Koolhydraten",
+        "sugars": "waarvan suikers",
+        "protein": "Eiwitten",
+        "salt": "Zout",
+        "fiber": "Voedingsvezels",
     },
 }
