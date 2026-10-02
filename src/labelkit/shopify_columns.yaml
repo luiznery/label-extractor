@@ -1,0 +1,15 @@
+# How label fields map to Shopify product-import columns. `{lang}` is replaced by the
+# language code. Adapt the metafield names to the ones defined in your store.
+id_column: ID
+status_column: Status
+columns:
+  legal_name: "Metafield: custom.legal_name_{lang} [multi_line_text_field]"
+  ingredients: "Metafield: custom.ingredients_{lang} [multi_line_text_field]"
+  allergens: "Metafield: custom.allergens_{lang} [multi_line_text_field]"
+  net_quantity: "Metafield: custom.net_quantity_{lang} [multi_line_text_field]"
+  storage: "Metafield: custom.storage_{lang} [multi_line_text_field]"
+  usage: "Metafield: custom.usage_{lang} [multi_line_text_field]"
+  responsible_operator: "Metafield: custom.responsible_operator_{lang} [multi_line_text_field]"
+  country_of_origin: "Metafield: custom.country_of_origin_{lang} [multi_line_text_field]"
+  alcohol_by_volume: "Metafield: custom.alcohol_by_volume_{lang} [single_line_text_field]"
+  nutrition: "Metafield: custom.nutrition_{lang} [multi_line_text_field]"

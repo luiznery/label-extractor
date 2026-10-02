@@ -1,0 +1,88 @@
+{
+  "product_id": "cassava",
+  "images": [
+    "1.jpg",
+    "2.jpg"
+  ],
+  "ocr": {
+    "1.jpg": "| Veuillez lire attentivement les instructions et les avertissements. |\n| --- |\n| 163 kcal/ 694 kJ |\n| 0,28 g |\n| 0,07 g |\n| 38,06 g |\n| 1,8 g |\n| 1,36 g |\n| 0,03 g |",
+    "2.jpg": "TENDRE / MACIA / ZEER TEDER\nMariángel\nMANIOC CONGELÉ / MANDIOCA CONGELADA\nBEVROREN CASSAVE"
+  },
+  "original": {
+    "legal_name": "TENDRE / MACIA / ZEER TEDER Mariángel MANIOC CONGELÉ / MANDIOCA CONGELADA BEVROREN CASSAVE",
+    "ingredients": null,
+    "allergens": null,
+    "net_quantity": "38,06 g",
+    "storage": null,
+    "usage": null,
+    "responsible_operator": null,
+    "country_of_origin": null,
+    "alcohol_by_volume": null,
+    "nutrition": {
+      "basis": "100g",
+      "portion_size": null,
+      "energy_kj": null,
+      "energy_kcal": 163.0,
+      "fat_g": null,
+      "saturated_fat_g": null,
+      "carbohydrates_g": null,
+      "sugars_g": null,
+      "fiber_g": null,
+      "protein_g": 1.0,
+      "salt_g": 0.0,
+      "sodium_mg": 0.0
+    }
+  },
+  "labels": {
+    "pt": {
+      "legal_name": "TENDRE / MACIA / ZEER TEDER Mariángel MANIOC CONGELÉ / MANDIOCA CONGELADA BEVROREN CASSAVE",
+      "ingredients": null,
+      "allergens": null,
+      "net_quantity": "38,06 g",
+      "storage": null,
+      "usage": null,
+      "responsible_operator": null,
+      "country_of_origin": null,
+      "alcohol_by_volume": null,
+      "nutrition": {
+        "basis": "100g",
+        "portion_size": null,
+        "energy_kj": null,
+        "energy_kcal": 163.0,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "carbohydrates_g": null,
+        "sugars_g": null,
+        "fiber_g": null,
+        "protein_g": 1.0,
+        "salt_g": 0.0,
+        "sodium_mg": 0.0
+      }
+    },
+    "fr": {
+      "legal_name": "TENDRE / MACIA / ZEER TEDER Mariángel MANIOC CONGELÉ / MANDIOCA CONGELADA BEVROREN CASSAVE",
+      "ingredients": null,
+      "allergens": null,
+      "net_quantity": "38,06 g",
+      "storage": null,
+      "usage": null,
+      "responsible_operator": null,
+      "country_of_origin": null,
+      "alcohol_by_volume": null,
+      "nutrition": {
+        "basis": "100g",
+        "portion_size": null,
+        "energy_kj": null,
+        "energy_kcal": 163.0,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "carbohydrates_g": null,
+        "sugars_g": null,
+        "fiber_g": null,
+        "protein_g": 1.0,
+        "salt_g": 0.0,
+        "sodium_mg": 0.0
+      }
+    }
+  }
+}

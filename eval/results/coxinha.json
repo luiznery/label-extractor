@@ -1,0 +1,49 @@
+{
+  "product_id": "coxinha",
+  "images": [
+    "1.jpg",
+    "2.jpg"
+  ],
+  "ocr": {
+    "1.jpg": "COXINHA DE FRANGO\nBEIGNET DE POULET\ningrédients : farine de blé, lait, eau, graisse végétale, poulet, crème de fromage, bouillon, épicerie, sel, chapelure.\nFab le: 21/08/2025\nDLC: 20/02/2026\n2058732697020\nCasserole Chaude 68 rue du chemin vert 95460 Ézanville",
+    "2.jpg": "COXINHA DE FRANGO\nBEIGNET DE POULET\n\ningrédients : farine de blé, lait, eau, graisse végétale, poulet, crème de fromage, bouillon, épicerie, sel, chapelure.\n\nFab le: 21/08/2025\nDLC: 20/02/2026\n2058732697020\n\nCasserole Chaude 68 rue du chemin vert 95460 Ézanville"
+  },
+  "original": {
+    "legal_name": "COXINHA DE FRANGO",
+    "ingredients": "farine de blé, lait, eau, graisse végétale, poulet, crème de fromage, bouillon, épicerie, sel, chapelure",
+    "allergens": null,
+    "net_quantity": null,
+    "storage": null,
+    "usage": null,
+    "responsible_operator": "Casserole Chaude 68 rue du chemin vert 95460 Ézanville",
+    "country_of_origin": null,
+    "alcohol_by_volume": null,
+    "nutrition": null
+  },
+  "labels": {
+    "pt": {
+      "legal_name": "COXINHA DE FRANGO",
+      "ingredients": "farine de blé, leite, água, gordura vegetal, frango, creme de queijo, caldo, especiarias, sal, farinha de trigo",
+      "allergens": null,
+      "net_quantity": null,
+      "storage": null,
+      "usage": null,
+      "responsible_operator": "Casserole Chaude 68 rue du chemin vert 95460 Ézanville",
+      "country_of_origin": null,
+      "alcohol_by_volume": null,
+      "nutrition": null
+    },
+    "fr": {
+      "legal_name": "COXINHA DE FRANGO",
+      "ingredients": "farine de blé, lait, eau, graisse végétale de volaille, poulet, crème de fromage, bouillon, épicerie, sel, chapelure",
+      "allergens": null,
+      "net_quantity": null,
+      "storage": null,
+      "usage": null,
+      "responsible_operator": "Casserole Chaude 68 rue du chemin vert 95460 Ézanville",
+      "country_of_origin": null,
+      "alcohol_by_volume": null,
+      "nutrition": null
+    }
+  }
+}

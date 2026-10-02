@@ -1,0 +1,25 @@
+{
+  "legal_name": "Polpa de morango",
+  "ingredients": "polpa integral de morango",
+  "allergens": "Não contém glúten. Não contém lactose.",
+  "net_quantity": "100 g",
+  "storage": null,
+  "usage": null,
+  "responsible_operator": "Frutamil Ind. Com. e Processamento de Frutas e Sucos Ltda., Rod. SP 255 km 215 +750 m, Pratânia - SP, Brasil",
+  "country_of_origin": "Brasil",
+  "alcohol_by_volume": null,
+  "nutrition": {
+    "basis": "100ml",
+    "portion_size": null,
+    "energy_kj": null,
+    "energy_kcal": 11,
+    "fat_g": 0.1,
+    "saturated_fat_g": null,
+    "carbohydrates_g": 2.3,
+    "sugars_g": 2.0,
+    "fiber_g": 0.6,
+    "protein_g": 0.3,
+    "salt_g": null,
+    "sodium_mg": 0.33
+  }
+}

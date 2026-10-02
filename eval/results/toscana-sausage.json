@@ -1,0 +1,86 @@
+{
+  "product_id": "toscana-sausage",
+  "images": [
+    "1.jpg"
+  ],
+  "ocr": {
+    "1.jpg": "SAUCISSE TOSCANA 70G X 6\n005857\nN° Lot: 003211\nSAUCISSE CUITE\nINGRÉDIENTS : Viande de porc (96%), eau, sel, épices et aromates\nconservateur : E331, stabilisant : E450, sucre, antioxygène : E301,\ncolorant : E120. Boyau naturel de porc. *Origine France.\nPeut contenir des traces de lait, œufs, gluten, moutarde, fruits à\ncoque, soja. A consommer rapidement après ouverture.\nValeurs nutritionnelles moyennes/ 100g : Énergie (1388 KJ / 331Kcal)\nmatières grasses 29g dont acides gras saturés 10g, glucides 0.8g\ndont sucres 0.5g, protéines 16g, sel 2.2g)\nA consommer jusqu'au:\n29/09/2025\nPoids Net 0.470 kg\nA conserver à 0, +4°C\nFR\n60.009.001\nCE\n2 905857 004707\nDistribué par : Viandes du Grand Paris 94525 RUNGIS CEDEX"
+  },
+  "original": {
+    "legal_name": "SAUCISSE TOSCANA 70G X 6",
+    "ingredients": "Viande de porc (96%), eau, sel, épices et aromates, conservateur : E331, stabilisant : E450, sucre, antioxygène : E301, colorant : E120. Boyau naturel de porc",
+    "allergens": "Peut contenir des traces de lait, œufs, gluten, moutarde, fruits à coque, soja. A consommer rapidement après ouverture",
+    "net_quantity": "0.470 kg",
+    "storage": "à 0, +4°C",
+    "usage": "A consommer jusqu'au: 29/09/2025",
+    "responsible_operator": "Distribué par : Viandes du Grand Paris 94525 RUNGIS CEDEX",
+    "country_of_origin": "Origine France",
+    "alcohol_by_volume": null,
+    "nutrition": {
+      "basis": "100g",
+      "portion_size": null,
+      "energy_kj": 1388.0,
+      "energy_kcal": 331.0,
+      "fat_g": 29.0,
+      "saturated_fat_g": 10.0,
+      "carbohydrates_g": 0.8,
+      "sugars_g": 0.5,
+      "fiber_g": null,
+      "protein_g": 16.0,
+      "salt_g": 2.2,
+      "sodium_mg": null
+    }
+  },
+  "labels": {
+    "pt": {
+      "legal_name": "SAUCISSE TOSCANA 70G X 6",
+      "ingredients": "Viande de porc (96%), água, sal, especiarias e aromatizantes, conservante: E331, estabilizante: E450, açúcar, antioxidante: E301, corante: E120. Gorgojo natural de porco",
+      "allergens": "Pode conter resíduos de leite, ovos, glúten, mostarda, frutos secos e soja. Consumir rapidamente após a abertura",
+      "net_quantity": "0,470 kg",
+      "storage": "a 0, +4°C",
+      "usage": "A consumir até: 29/09/2025",
+      "responsible_operator": "Distribuído por : Viandes do Grand Paris 94525 RUNGIS CEDEX",
+      "country_of_origin": "Origem França",
+      "alcohol_by_volume": null,
+      "nutrition": {
+        "basis": "100g",
+        "portion_size": null,
+        "energy_kj": 1388.0,
+        "energy_kcal": 331.0,
+        "fat_g": 29.0,
+        "saturated_fat_g": 10.0,
+        "carbohydrates_g": 0.8,
+        "sugars_g": 0.5,
+        "fiber_g": null,
+        "protein_g": 16.0,
+        "salt_g": 2.2,
+        "sodium_mg": null
+      }
+    },
+    "fr": {
+      "legal_name": "SAUCISSE TOSCANA 70G X 6",
+      "ingredients": "Viande de porc (96%), eau, sel, épices et aromates, conservateur : E331, stabilisant : E450, sucre, antioxygène : E301, colorant : E120. Boyau naturel de porc",
+      "allergens": "Peut contenir des traces de lait, œufs, gluten, moutarde, fruits à coque, soja. A consommer rapidement après ouverture",
+      "net_quantity": "0.470 kg",
+      "storage": "à 0, +4°C",
+      "usage": "A consommer jusqu'au: 29/09/2025",
+      "responsible_operator": "Distribué par : Viandes du Grand Paris 94525 RUNGIS CEDEX",
+      "country_of_origin": "Origine France",
+      "alcohol_by_volume": null,
+      "nutrition": {
+        "basis": "100g",
+        "portion_size": null,
+        "energy_kj": 1388.0,
+        "energy_kcal": 331.0,
+        "fat_g": 29.0,
+        "saturated_fat_g": 10.0,
+        "carbohydrates_g": 0.8,
+        "sugars_g": 0.5,
+        "fiber_g": null,
+        "protein_g": 16.0,
+        "salt_g": 2.2,
+        "sodium_mg": null
+      }
+    }
+  }
+}

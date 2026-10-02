@@ -1,0 +1,25 @@
+{
+  "legal_name": "Mandioca congelada",
+  "ingredients": null,
+  "allergens": null,
+  "net_quantity": null,
+  "storage": null,
+  "usage": null,
+  "responsible_operator": null,
+  "country_of_origin": null,
+  "alcohol_by_volume": null,
+  "nutrition": {
+    "basis": "100g",
+    "portion_size": null,
+    "energy_kj": 694,
+    "energy_kcal": 163,
+    "fat_g": 0.28,
+    "saturated_fat_g": 0.07,
+    "carbohydrates_g": 38.06,
+    "sugars_g": null,
+    "fiber_g": 1.8,
+    "protein_g": 1.36,
+    "salt_g": 0.03,
+    "sodium_mg": null
+  }
+}

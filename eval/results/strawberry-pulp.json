@@ -1,0 +1,93 @@
+{
+  "product_id": "strawberry-pulp",
+  "images": [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg"
+  ],
+  "ocr": {
+    "1.jpg": "POLPA DE\nMORANGO\nStrawberry Pulp / Pulpa de Fresa\nPulpe de Fraise\n100g/3.5oz\nPeso Líquido\nNet Weight\nPeso Neto\nPoids Net\n100% POLPA\n100% Pulp / 100% Pulpa / 100% Pulpe\nSEM ADITIVOS\nNo Additives\nSin Aditivos\nPas D'Additifs\nINDÚSTRIA\nBRASILEIRA\nMade in Brazil\nIndústria Brasileña\nIndustrie Brésilienne\nFRUTAMIL",
+    "2.jpg": "INFÓRMAÇÃO NUTRICIONAL\nNutricional information / Información nutricional\nInformation nutritionnelle\nPorção de: / Partion of: / Porción de: /Partie de: 100ml\n| 100ml | %VD* |\n| --- | --- |\n| Valor energético (Kcal) | 11Kcal | 1% |\n| Carboidratos totais (g) | 2,3 g | 1% |\n| Açúcares totais (g) | 2,0 g | - |\n| Açúcares adicionados (g) | 0 g | 0% |\n| Proteínas (g) | 0,3 g | 1% |\n| Gorduras totais (g) | 0,1 g | 0% |\n| Gorduras trans (g) | 0 g | 0% |\n| Fibra alimentar (g) | 0,6 g | 2% |\n| Sódio (mg) | 0,33 mg | 0% |\nNão contém quantidades significativas\nde gorduras saturadas e sódio\n*No alimento pronto para o consumo\nREGISTRO DE PRODUTO NO MAPA\nsob nº SP 000481-2.000001\nIngredientes: Polpa Integral de Morango\nNÃO CONTÉM GLUTEN.\nNÃO CONTÉM LACTOSE.",
+    "3.jpg": "Não contém quantidades significativas\nde gorduras saturadas e sódio\n*No alimento pronto para o consumo\nREGISTRO DE PRODUTO NO MAPA\nsob n° SP 000481-2.000001\nIngredientes: Polpa Integral de Morango\nNÃO CONTÉM GLÚTEN.\nNÃO CONTÉM LACTOSE.\nIngredients: Whole strawberry pulp\nGluten free / Lactose free\nIngredientes: Pulpa de fresa\nNo contiene gluten / No contiene lactosa\nIngrédients: Pulpe de fraise\nSans gluten / Sans lactose\nFABRICADO E ENVASADO POR:\nProduced by: / Hecho y embalado por:\nFabriqué et emballé par :\nFrutamil Ind. Com. e Processamento de Frutas\ne Sucos Ltda. - CNPJ 64.762.107/0001-50\nRod. SP 255 km 215 +750m - CEP 18660-000\nPratânia - SP - Brasil\nwww.frutamil.com.br\nfrutamil@frutamil.com.br\nRECYCLÁVEL\nA CRIAR LEMPA"
+  },
+  "original": {
+    "legal_name": "POLPA DE MORANGO",
+    "ingredients": "Polpa Integral de Morango\nPolpa de Fresa\nPulpe de Fraise\nPulpa de Fresa\nWhole Strawberry Pulp\nPulpa de Fraise\nGluten free / Lactose free\nGluten free / Lactose free\nSans gluten / Sans lactose\nSans gluten / Sans lactose\nIngrédients: Pulpe de fraise\nSans gluten / Sans lactose",
+    "allergens": "Não contém quantidades significativas de gorduras saturadas e sódio\n*No alimento pronto para o consumo\nREGISTRO DE PRODUTO NO MAPA\nsob nº SP 000481-2.000001\nIngredientes: Polpa Integral de Morango\nNÃO CONTÉM GLUTEN.\nNÃO CONTÉM LACTOSE.\nIngredientes: Whole strawberry pulp\nGluten free / Lactose free\nIngredientes: Pulpa de fresa\nNÃO CONTÉM GLUTEN.\nNÃO CONTÉM LACTOSE.\nIngrédients: Pulpe de fraise\nSans gluten / Sans lactose",
+    "net_quantity": "100ml",
+    "storage": "keep frozen",
+    "usage": null,
+    "responsible_operator": "Frutamil Ind. Com. e Processamento de Frutas e Sucos Ltda. - CNPJ 64.762.107/0001-50",
+    "country_of_origin": "Brasil",
+    "alcohol_by_volume": null,
+    "nutrition": {
+      "basis": "100ml",
+      "portion_size": null,
+      "energy_kj": null,
+      "energy_kcal": 11.0,
+      "fat_g": null,
+      "saturated_fat_g": null,
+      "carbohydrates_g": 2.3,
+      "sugars_g": 2.0,
+      "fiber_g": null,
+      "protein_g": null,
+      "salt_g": 0.001,
+      "sodium_mg": 0.33
+    }
+  },
+  "labels": {
+    "pt": {
+      "legal_name": "POLPA DE MORANGO",
+      "ingredients": "Polpa Integral de Morango\nPolpa de Fresa\nPulpe de Fraise\nPulpa de Fresa\nWhole Strawberry Pulp\nPulpa de Fraise",
+      "allergens": "Não contém quantidades significativas de gorduras saturadas e sódio",
+      "net_quantity": null,
+      "storage": "manter congelado",
+      "usage": null,
+      "responsible_operator": "Frutamil Ind. Com. e Processamento de Frutas e Sucos Ltda. - CNPJ 64.762.107/0001-50",
+      "country_of_origin": "Brasil",
+      "alcohol_by_volume": null,
+      "nutrition": {
+        "basis": "100ml",
+        "portion_size": null,
+        "energy_kj": null,
+        "energy_kcal": 11.0,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "carbohydrates_g": 2.3,
+        "sugars_g": 2.0,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": 0.001,
+        "sodium_mg": 0.33
+      }
+    },
+    "fr": {
+      "legal_name": "POLPA DE MORANGO",
+      "ingredients": "Polpa Integral de Morango\nPolpa de Fresa\nPulpe de Fraise\nPulpa de Fresa\nWhole Strawberry Pulp\nPulpa de Fraise\nGluten free / Lactose free\nGluten free / Lactose free\nSans gluten / Sans lactose\nSans gluten / Sans lactose\nIngrédients: Pulpe de fraise\nSans gluten / Sans lactose",
+      "allergens": "Não contém quantidades significativas de gorduras saturadas e sódio\n*No alimento pronto para o consumo\nREGISTRO DE PRODUTO NO MAPA\nsob nº SP 000481-2.000001\nIngredientes: Polpa Integral de Morango\nNÃO CONTÉM GLUTEN.\nNÃO CONTÉM LACTOSE.\nIngredientes: Whole strawberry pulp\nGluten free / Lactose free\nIngredientes: Pulpa de fresa\nNÃO CONTÉM GLUTEN.\nNÃO CONTÉM LACTOSE.\nIngrédients: Pulpe de fraise\nSans gluten / Sans lactose",
+      "net_quantity": "100ml",
+      "storage": "keep frozen",
+      "usage": null,
+      "responsible_operator": "Frutamil Ind. Com. e Processamento de Frutas e Sucos Ltda. - CNPJ 64.762.107/0001-50",
+      "country_of_origin": "Brasil",
+      "alcohol_by_volume": null,
+      "nutrition": {
+        "basis": "100ml",
+        "portion_size": null,
+        "energy_kj": null,
+        "energy_kcal": 11.0,
+        "fat_g": null,
+        "saturated_fat_g": null,
+        "carbohydrates_g": 2.3,
+        "sugars_g": 2.0,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": 0.001,
+        "sodium_mg": 0.33
+      }
+    }
+  },
+  "warnings": [
+    "Translation to fr failed, original text kept: 1 validation error for TextFields\n  Invalid JSON: EOF while parsing a string at line 8 column 3286 [type=json_invalid, input_value='{\\n  \"legal_name\": \"POLP...0 g d\\'alcool/100cl - 0', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  ]
+}

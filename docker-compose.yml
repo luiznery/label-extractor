@@ -1,0 +1,21 @@
+# `docker compose up` -> demo on http://localhost:7860 with a local model, no API key needed.
+services:
+  ollama:
+    image: ollama/ollama
+    volumes: [ollama:/root/.ollama]
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+  pull-model:  # one-off: downloads the model on first start (~3 GB)
+    image: ollama/ollama
+    environment: [OLLAMA_HOST=ollama:11434]
+    entrypoint: ["ollama", "pull", "qwen2.5vl:3b"]
+    depends_on: { ollama: { condition: service_healthy } }
+  app:
+    build: .
+    ports: ["7860:7860"]
+    environment:
+      LABELKIT_BASE_URL: http://ollama:11434/v1
+    depends_on: { pull-model: { condition: service_completed_successfully } }
+volumes:
+  ollama:

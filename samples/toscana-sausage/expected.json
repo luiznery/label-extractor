@@ -1,0 +1,25 @@
+{
+  "legal_name": "Linguiça toscana",
+  "ingredients": "carne de porco (96%), água, sal, especiarias e aromas, conservante: E331, estabilizante: E450, açúcar, antioxidante: E301, corante: E120, tripa natural de porco",
+  "allergens": "Pode conter traços de leite, ovos, glúten, mostarda, frutos de casca rija e soja.",
+  "net_quantity": "0,470 kg",
+  "storage": "Conservar entre 0 °C e +4 °C. Consumir rapidamente após a abertura.",
+  "usage": null,
+  "responsible_operator": "Viandes du Grand Paris, 94525 Rungis Cedex",
+  "country_of_origin": "França",
+  "alcohol_by_volume": null,
+  "nutrition": {
+    "basis": "100g",
+    "portion_size": null,
+    "energy_kj": 1368,
+    "energy_kcal": 331,
+    "fat_g": 29,
+    "saturated_fat_g": 10,
+    "carbohydrates_g": 0.8,
+    "sugars_g": 0.5,
+    "fiber_g": null,
+    "protein_g": 16,
+    "salt_g": 2.2,
+    "sodium_mg": null
+  }
+}
