@@ -39,21 +39,6 @@ Each step is a small, separately testable tool in [`src/labelkit/tools/`](src/la
 | `shopify.py` | Maps fields to Shopify metafield columns ([configurable YAML](src/labelkit/shopify_columns.yaml)) and merges them into a store product export. | none |
 | `matching.py` | Matches messy supplier invoice lines to catalog products (used to import expiry dates): fuzzy retrieval with `rapidfuzz`, LLM re-ranking only for uncertain matches. | optional |
 
-### Design decisions
-
-- **One client, two backends.** Ollama exposes an OpenAI-compatible API, so [`llm.py`](src/labelkit/llm.py)
-  uses the official `openai` SDK for both; only the base URL changes.
-- **Rules belong in code, not prompts.** The first version asked the model to convert units and
-  compute salt from sodium; it sometimes got it wrong, silently. Now the model only *copies* numbers
-  and the arithmetic is deterministic and unit-tested.
-- **`null` instead of guesses.** The schema separates "not on the label" from the per-language
-  defaults ("Non spécifié", "Prêt à consommer"…) applied at export, which makes hallucinations measurable.
-- **Fail soft, never lose work.** Small models occasionally get stuck repeating themselves; output
-  is capped so a loop fails in about a minute instead of hanging, invalid JSON is retried, and if a translation still fails the product is kept with its
-  original text and flagged **⚠ Review** in the catalog.
-- **Cheap reruns.** Every model call is cached on disk by request hash, and finished products are
-  skipped, so an interrupted batch resumes where it stopped.
-
 ## Quick start
 
 Requires [uv](https://docs.astral.sh/uv/) and Docker (or a local [Ollama](https://ollama.com/download)).
@@ -141,8 +126,3 @@ uv run labelkit evaluate   # compare against the hand-checked samples
 uv run pytest          # model calls are faked: fast and offline
 uv run ruff check . && uv run ruff format --check .
 ```
-
-## License
-
-MIT for the code. The sample photos show commercial packaging and are included only to demonstrate
-the pipeline.
